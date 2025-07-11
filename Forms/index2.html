@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cleaning Agency Booking</title>
+  </head>
+  <body>
+    <h1>Book a Cleaning Service</h1>
+    <form action="/book-cleaning" method="post">
+      <label for="service">Select Service:</label><br />
+      <select id="service" name="service">
+        <option value="home">Home Cleaning</option>
+        <option value="office">Office Cleaning</option>
+        <option value="deep">Deep Cleaning</option></select
+      ><br /><br />
+
+      <label for="date">Preferred Date:</label><br />
+      <input type="date" id="date" name="date" /><br /><br />
+
+      <label for="time">Preferred Time:</label><br />
+      <input type="time" id="time" name="time" /><br /><br />
+
+      <button type="submit">Book Now</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suggest a Photo Spot</title>
+  </head>
+  <body>
+    <h1>Suggest a Cool Spot</h1>
+    <form action="/submit-spot" method="post">
+      <label for="location">Location Name:</label><br />
+      <input
+        type="text"
+        id="location"
+        name="location"
+        placeholder="Riverside Park"
+      /><br /><br />
+
+      <label for="coords">Coordinates (lat,lon):</label><br />
+      <input
+        type="text"
+        id="coords"
+        name="coords"
+        placeholder="40.7128,-74.0060"
+      /><br /><br />
+
+      <label for="description">Description:</label><br />
+      <textarea
+        id="description"
+        name="description"
+        rows="3"
+        placeholder="Why this spot is great for photos"
+      ></textarea
+      ><br /><br />
+
+      <button type="submit">Submit Spot</button>
+    </form>
+  </body>
+</html>
