@@ -1,4 +1,5 @@
-• Basic Tags: <html>, <head>, <body>, <title>
+<!-- • Basic Tags: <html>, <head>, <body>, <title> -->
+
 • Text Formatting: <h1> to <h6>, <p>, <br>, <hr>, <strong>, <em>
 • Lists: <ul>, <ol>, <li>
 • Links: <a>, href, target
