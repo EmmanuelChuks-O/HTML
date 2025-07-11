@@ -1,4 +1,4 @@
-<!-- • Basic Tags: <html>, <head>, <body>, <title> -->
+<!-- • Basic Tags: <html>, <head>, <body>, <title>
 
 • Text Formatting: <h1> to <h6>, <p>, <br>, <hr>, <strong>, <em>
 • Lists: <ul>, <ol>, <li>
@@ -10,4 +10,4 @@
 
 <footer>
 • Meta Tags: <meta>, charset, name, content, viewport
-• Multimedia: <audio>, <video>, controls, <source>
+• Multimedia: <audio>, <video>, controls, <source> -->
