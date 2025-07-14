@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background: gray;
+        color: #f0f0f5;
+        margin: 0;
+      }
+
+      header,
+      nav,
+      main,
+      section,
+      footer {
+        padding: 1rem;
+      }
+
+      .logo {
+        width: 150px;
+        height: auto;
+      }
+
+      nav a {
+        color: white;
+        margin: 0 0.5rem;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      .home {
+        text-align: center;
+      }
+
+      .services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 2rem 0;
+      }
+
+      th,
+      td {
+        border: 4px solid white;
+        padding: 0.5rem;
+      }
+
+      form {
+        background: #111;
+        padding: 1rem;
+        border-radius: 8px;
+      }
+
+      input,
+      button,
+      textarea,
+      select {
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        width: 95%;
+      }
+
+      button {
+        background: #66f;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #559;
+      }
+
+      .color-demo {
+        border: 2px solid #ff6347;
+        background-color: rgba(255, 99, 71, 0.5);
+        padding: 0.5rem;
+        margin: 1rem 0;
+      }
+
+      nav {
+        text-align: center;
+      }
+
+      header h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/FutureAI Logo.png" alt="FutureAI Logo" class="logo" />
+      <h1>FutureAI Marketing Studio</h1>
+      <nav role="navigation" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="home">
+        <h2>Automate Your Campaigns with AI</h2>
+        <p>
+          Leverage <strong>machine learning</strong> and
+          <em>predictive analytics</em> to reach your audience.
+        </p>
+        <img
+          src="./assets/AI dashboard preview.jpg"
+          alt="AI dashboard preview"
+          width="800"
+          height="400"
+        />
+        <br />
+        <a href="#contact" title="Request a demo">Request a Demo &rarr;</a>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Chatbot Integration</li>
+          <li>Predictive Analytics</li>
+          <li>Personalized Content</li>
+          <li>Real-time Reporting</li>
+        </ul>
+      </section>
+      <section id="pricing">
+        <h2>Pricing Plans</h2>
+        <table>
+          <tr>
+            <th>Plan</th>
+            <th>Features</th>
+            <th>Cost</th>
+          </tr>
+          <tr>
+            <td>Starter</td>
+            <td>Basic AI Reports</td>
+            <td>$499</td>
+          </tr>
+          <tr>
+            <td>Pro</td>
+            <td>Advanced Models, 24/7 Support</td>
+            <td>$1,499</td>
+          </tr>
+          <tr>
+            <td>Enterprise</td>
+            <td>Custom ML Pipelines</td>
+            <td>$4,999</td>
+          </tr>
+        </table>
+        <div class="color-demo">
+          Color Demo: Demonstrating inline style and border color values
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post" aria-label="Contact form">
+          <label for="email">Email for AI demo</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@business.com"
+            required
+          /><br />
+          <label for="message">Message</label><br />
+          <textarea
+            name="message"
+            name="message"
+            rows="4"
+            placeholder="Tell us your goals"
+            required
+          ></textarea
+          ><br />
+          <button type="submit">Request Demo</button>
+        </form>
+      </section>
+      <section id="media">
+        <h2>Studio Tour</h2>
+        <video width="640" height="360" controls poster="">
+          <source src="" type="video/mp4" />
+          Your browser does not support the video tag
+        </video>
+      </section>
+      <section id="map">
+        <h2>Interactive Map</h2>
+        <img
+          src="./assets/studio location map.jpg"
+          width="640px"
+          height="360px"
+          alt="studio location map"
+          usemap="#studioMap"
+        />
+        <map name="studioMap">
+          <area
+            shape="rect"
+            coords="0,0,100,100"
+            href="#contact"
+            alt="Entrance"
+            title="Contact Entrance"
+          />
+          <area
+            shape="circle"
+            coords="200,200.50"
+            href="#"
+            alt="Parking"
+            title="Parking Area"
+          />
+        </map>
+      </section>
+    </main>
+    <footer>
+      <address>
+        FutureAI Marketing Studio <br />
+        123 AI Blvd Saskatoon <br />
+        <a href="tel:+123456789">+1 (234) 567-89</a>
+      </address>
+      <p>
+        <small
+          >&copy; 2100 FutureAI Marketing Studio. All rights reserved</small
+        >
+      </p>
+      <p><a href="#home">Back to top</a></p>
+    </footer>
+  </body>
+</html>
