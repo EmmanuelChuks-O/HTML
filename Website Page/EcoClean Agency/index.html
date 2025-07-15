@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoClean Agency</title>
+    <link
+      rel="icon"
+      href="./assets/EcoClean Logo1.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 16px;
+        font-weight: 300;
+        color: #263238;
+        background: #e8f5e9;
+        margin: 0;
+      }
+      header,
+      footer {
+        text-align: center;
+        background: #31b13a;
+        color: #fff;
+        padding: 1rem;
+      }
+      nav a {
+        color: #ffd;
+        font-style: italic;
+        margin: 0 0.5rem;
+      }
+      main {
+        padding: 2rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+      form,
+      table {
+        background: #fff;
+        padding: 1rem;
+        border-radius: 8px;
+      }
+      button {
+        background: #86ac89;
+        color: #fff;
+        padding: 0.5rem;
+        border: none;
+        cursor: pointer;
+      }
+      img {
+        width: 500;
+        height: 300;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="./assets/EcoClean Logo.png"
+        alt="EcoClean Logo"
+        width="120"
+        height="60"
+      />
+      <h1>EcoClean Agency</h1>
+      <p>Solar-Powered & Zero-Waste Cleaning</p>
+      <nav>
+        <a href="#booking">Book</a>
+        <a href="#features">Features</a>
+        <a href="#testimonals">Testimonals</a>
+      </nav>
+    </header>
+    <main>
+      <section id="booking">
+        <h2>Book a Sustainable Clean</h2>
+        <p>
+          <small
+            >Fill out the form below to schedule your eco-friendly
+            service</small
+          >
+        </p>
+        <form action="#" method="post">
+          <label for="service">Service Type:</label><br />
+          <select name="service" id="service">
+            <option value="home">Home Cleaning</option>
+            <option value="office">Office Cleaning</option>
+            <option value="industrial">Industrial Cleaning</option></select
+          ><br /><br />
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" /><br /><br />
+          <label
+            ><input type="checkbox" name="solar" checked />Use Solar
+            Equipment</label
+          ><br /><br />
+          <button type="button">Book Now</button>
+        </form>
+      </section>
+      <section id="features" class="grid">
+        <article>
+          <h3>Biodegradable Products</h3>
+          <img
+            src="./assets/Biodegradable cleaners.jpg"
+            alt="Biodegradable cleaners"
+            width="500"
+            height="350"
+          />
+          <p>Safe for your home & planet</p>
+        </article>
+        <article>
+          <h3>Solar-Powered Vans</h3>
+          <img
+            src="./assets/Solar-Powered cleaning van.jpg"
+            alt="Solar-Powered cleaning van"
+            width="500"
+            height="350"
+          />
+          <p>Zero carbon footprint on the move</p>
+        </article>
+        <article>
+          <h3>Zero-Waste Policy</h3>
+          <p>All waste is recycled or composted.</p>
+        </article>
+      </section>
+      <section id="gallery">
+        <h2>Our Fleet in Action</h2>
+        <img
+          src="./assets/EcoClean team in action.jpg"
+          alt="EcoClean team in action"
+          width="500"
+          height="300"
+        />
+        <img
+          src="./assets/EcoClean team in action1.jpg"
+          alt="EcoClean team in action"
+          width="500"
+          height="300"
+        />
+        <img
+          src="./assets/EcoClean team in action2.jpg"
+          alt="EcoClean team in action"
+          width="500"
+          height="300"
+        />
+      </section>
+      <section id="testimonals">
+        <h2>Client Testimonials</h2>
+        <blockquote>
+          "EcoClean transformed our office-efficient, green, and professional!"
+        </blockquote>
+        <p>Jane Doe, CEO of GreenTech</p>
+      </section>
+    </main>
+    <footer>
+      <address>
+        EcoClean Agency<br />
+        456 Greenway Drive<br />
+        Saskatoon <br />
+        <a href="mailto:info@ecoclean.agency">info@ecoclean.agency</a><br />
+        <a href="tel:+1987654321">+1 (987) 654-321</a>
+      </address>
+      <p>&copy; 2100 EcoClean Agency</p>
+    </footer>
+  </body>
+</html>
