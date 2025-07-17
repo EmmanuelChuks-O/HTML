@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bowel of Compassion - Orphans</title>
+    <style>
+      body {
+        margin: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-family: sans-serif;
+        background: #f9f9f9;
+        color: #333;
+      }
+      header,
+      footer {
+        background: #264653;
+        color: #f0f0f0;
+        text-align: center;
+      }
+      nav a {
+        margin: 0 12rem;
+        color: #e9c46a;
+        text-decoration: none;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+      }
+      article,
+      aside {
+        background: #fff;
+        padding: 1rem;
+        border-radius: 6px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1rem 0;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 0.5rem;
+        text-align: center;
+      }
+      form {
+        background: #b4ae9f;
+        padding: 1rem;
+        border-radius: 6px;
+      }
+      input,
+      textarea,
+      select,
+      button {
+        padding: 0.5rem;
+        margin-top: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      button {
+        background: #264653;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #2a5d6c;
+      }
+      #media {
+        max-width: 100%;
+        height: auto;
+      }
+      .highlight {
+        background-color: rgba(233, 196, 106, 0.3);
+      }
+      #about {
+        margin: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Bowel of Compassion</h1>
+      <p><em>"A future for every child through Jesus Christ"</em></p>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#volunteer">Volunteer</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Our Mission</h2>
+        <p>
+          We serve <strong>orphans</strong> with love, education, and safe
+          shelter. Inspired by <q>Deuteronomy 14:29</q>, we reach out to the
+          <abbr title="Orphans, Widows, and the Stranger">OWS</abbr> in our
+          communities.
+        </p>
+        <img
+          src="./assets/Children playing in foundation.jpg"
+          alt="Children playing in foundation"
+          width="700"
+          height="400"
+          class="media"
+        />
+      </section>
+      <section id="programs" class="grid">
+        <article>
+          <h3>Education Support</h3>
+          <p>School supplies, tutoring and scholarships.</p>
+        </article>
+        <article>
+          <h3>Health & Meals</h3>
+          <p>Regular medical checkups and nutritious meals.</p>
+        </article>
+        <article>
+          <h3>Safe Housing</h3>
+          <p>Round the clock shelter in a loving environment.</p>
+        </article>
+      </section>
+      <section id="impact">
+        <h2>Our Impact</h2>
+        <table>
+          <tr>
+            <th>Year</th>
+            <th>Children Helped</th>
+            <th>Volunteers</th>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>120</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <td>2024</td>
+            <td>160</td>
+            <td>60</td>
+          </tr>
+        </table>
+        <blockquote cite="https://example.org/testimonial">
+          "Bowel of Compassion gave me a second chance at life." – Former
+          Resident
+        </blockquote>
+      </section>
+      <section id="volunteer">
+        <h2>Become a Volunteer</h2>
+        <form action="#" method="post" aria-label="Volunteer Sign-up">
+          <label for="name">Full Name</label>
+          <input type="text" name="name" id="name" placeholder="Your Name" />
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+          />
+          <label for="role">I want to:</label>
+          <select id="role" name="role">
+            <option value="tutor">Tutor Children</option>
+            <option value="cook">Prepare Meals</option>
+            <option value="mentor">Mentor Teens</option>
+          </select>
+          <label for="message">Tell us why you care:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="3"
+            cols="90"
+            placeholder="Your story..."
+          ></textarea>
+          <button type="submit">Sign Up</button>
+        </form>
+      </section>
+      <section id="media">
+        <h2>Hear Their Stories</h2>
+        <audio controls>
+          <source src="audio/orphan-voices.mp3" type="audio/mpeg" />
+          Your browser does not support audio.
+        </audio>
+      </section>
+    </main>
+    <footer>
+      <address>
+        Bowel of Compassion<br />
+        789 Compassion Ave<br />
+        <a href="mailto:contact@bowlofcompassion.org" style="color: white"
+          >contact@bowelofcompassion.org</a
+        ><br />
+        <a href="tel:+1555123456" style="color: white">+1 (555) 123-456</a>
+      </address>
+      <p>
+        <small
+          >&copy; (For Life) Bowel of Compassion. All rights reserved.</small
+        >
+      </p>
+    </footer>
+  </body>
+</html>
